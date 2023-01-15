@@ -1,0 +1,17 @@
+10 mins
+Declare and Initialize 2 variables of each together (and declare and initialize the last one separately)
+of the data types we just discussed and print out 1 of each of the variables using the println method.
+
+25 mins.
+Write boolean expressions for the following:
+ 1. 10 + 11 > 25
+ 2. 22 * 6 < 58
+ 3. 10 > 9
+ 4. 11 < 5
+
+ save your results to a variable and print out appropriate messages for the
+ expressions using if-else statements. Also print out appropriate messages
+ for these numbers: 3, 4 (negate them); For example:
+
+ Not (10 > 9)
+
