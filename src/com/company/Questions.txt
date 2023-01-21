@@ -15,3 +15,14 @@ Write boolean expressions for the following:
 
  Not (10 > 9)
 
+20 mins
+Write a program to print out all the even numbers between 1  - 30
+
+20 mins
+- Declare & initialize a string variable with a value
+- Write a program to print out only the vowels in that string
+
+30 mins
+Write a program that takes in a string and returns the number of words
+in the string.
+HINT: Check online for the Character class and look for the isLetter()

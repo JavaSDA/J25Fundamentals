@@ -9,6 +9,7 @@
 * A class is a blueprint for writing code or building objects.
 *
 * A method is a collection of statements that achieve a unit of a task (or the task itself)
+* and functions within a class
 *
 * A main method is the main entry point of any Java program (or Project).
 * and the standard signature for any main method is public static void main(String[] args)
@@ -34,6 +35,16 @@
 * double - 8 bytes - max of 15 dp
 * char - 1 byte of data. A maximum of one character.
 * boolean - true / false (or an expression that evaluates to true or false)
+*
+* Wrapper class equivalent
+* Byte
+* Short
+* Integer
+* Long
+* Float
+* Double
+* Character
+* Boolean
 *
 * String - Anything you have in between "" is a string
 *
@@ -68,12 +79,32 @@
 * Strings
 * Loops
 * Regular Expressions
+*
+* Loop - a piece of code that gets repeated.
+* Important things for a loop
+* - How the loop gets incremented
+* - How the loop gets terminated
+*
+* Pre-incrementation and decrementation
+* ++i - value is increased before it is read
+* --i - value is decreased before it is read
+*
+* Post-incrementation and decrementation
+* i++ - value is read before it is incremented
+* i-- - value is read before it is decreased
+*
+* Escape characters
+* \t - tab character
+* \n - new line
+* \r - carriage return
 * */
 // - single line comment
 // /* */ - multiline comment
 
 
 package com.company;
+
+import java.util.Locale;
 
 public class Main {
 
@@ -98,7 +129,41 @@ public class Main {
         boolean fiveGreaterEight = 5 > 8; // false
         boolean fourEqualThree = 4 == 3; // false
 
-        String myString = "hello";
+        String myString = "heLlO";
+        String fiveString = "seven";
+
+//        System.out.println(fiveString.charAt(0));
+//        System.out.println(myString.charAt(2));
+
+        // string methods example
+        // uppercase and lowercase
+//        System.out.println(myString.toUpperCase());
+//        System.out.println(myString.toLowerCase());
+//        System.out.println(myString.length());
+
+
+//        int val = 0;
+        // pre-incrementation
+//        System.out.println(++val);
+
+        // post-incrementation
+//        System.out.println(val++);
+
+        // Loops
+        // for loop
+//        for (int i = 1; i <= 10; i++) {
+//            System.out.println("number " + i + " is: " + i);
+//        }
+
+//        System.out.println(myString.concat(fiveString));
+//        System.out.println("Java Class".contains("new"));
+        System.out.println("\tHi there!\n");
+
+
+        for (int i = 0; i < myString.length(); i++) {
+            System.out.println(myString.charAt(i));
+        }
+
 
 
 //        System.out.println(firstNumber + secondNumber);
@@ -133,10 +198,12 @@ public class Main {
 //            System.out.println("Five is Greater than Eight");
 //        }
 
-/*        String option = "A";
+/*        String option = "";
 
         switch (option) {
             case "A":
+                System.out.println("option is A");
+                break;
             case "B":
             case "C":
             case "D":
@@ -149,7 +216,10 @@ public class Main {
         }*/
 
 //        System.out.println("my fav number is " + 5);
-        System.out.println("5" + 5);
+//        System.out.println("5" + 5);
+
+
+
     }
 }
 
